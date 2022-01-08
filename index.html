@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+   <link rel="stylesheet" https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css>
+</head>
+
+<style>
+    *
+    {
+        text-decoration: none;
+        padding-top: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+    body
+    {
+        background: rgb(2,0,36);
+background: linear-gradient(220deg, rgba(2,0,36,1) 35%, rgba(25,15,41,1) 52%, rgba(0,212,255,1) 97%);
+    }
+.para
+{
+    width: 60%;
+    padding: 2px 11px;
+    margin: 20px 50px;
+    line-height: 1.4;
+    /* border: 2px solid violet; */
+}
+.para p
+{
+    font-size: 22px;
+    font-weight: 700;
+    color: rgb(51, 32, 12);
+}
+.area
+{
+    position: absolute;
+    color: black;
+    margin-top: 20%;
+}
+.pic
+{
+    margin-left: 70%;
+    margin-top: -235px;
+   
+}
+.pic img
+{
+    width: 75%;
+    height: 30%;
+    box-shadow: 2px 2px 10px cadetblue,
+                2px 2px 20px cadetblue,
+                2px 2px 30px cadetblue;
+}
+
+@media screen and (max-width: 880px)
+{
+    .para
+    {
+        width: 80%;
+        height: 80%;
+    }
+   
+    .pic
+    {
+        width: 70%;
+        height: 100%;
+    }
+    .pic img
+    {
+        margin-left: -70%;
+        margin-top: 90%;
+    }
+}   
+
+</style>
+<body>
+
+    <h1 class="m-5 text-warning bg-success text-center p-3 border border-outline">Happy Birthday</h1>
+    <div class="para">
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere atque sunt incidunt  tenetur dicta itaque saepe 
+            cum delectus accusamus? Facere eveniet laudantium  necessitatibus asperiores qui adipisci perferendis ad neque 
+            incidunt ducimus nulla quibusdam, tempora amet placeat soluta omnis voluptates quam!  Minus blanditiis 
+            necessitatibus repudiandae, pariatur odio iusto amet quidem optio!</p>
+    </div>
+    
+    <div class="pic">
+        <img src="th.jpg" alt="">
+    </div>
+    
+   
+</body>
+</html>
